@@ -10,7 +10,7 @@ const HomeFilters = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
 
-  //Which filter is currently active
+  // Which filter is currently active
   const [active, setActive] = useState("");
 
   const handleTypeClick = (item: string) => {
